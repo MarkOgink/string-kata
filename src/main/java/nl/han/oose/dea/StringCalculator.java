@@ -26,7 +26,7 @@ public class StringCalculator
             return sum;
         }
         else if(numbers.startsWith("/")){
-
+            return 0;
         }
         else
             return Integer.parseInt(numbers);
